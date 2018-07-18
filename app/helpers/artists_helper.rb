@@ -4,7 +4,7 @@ module ArtistsHelper
         binding.pry
         if song.artist == nil
             binding.pry
-             link_to song, edit_song_path(song)
+             link_to "Add Artist", edit_song_path(song)
         else
 
         end
