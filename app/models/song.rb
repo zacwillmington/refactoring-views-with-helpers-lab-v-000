@@ -6,7 +6,6 @@ class Song < ActiveRecord::Base
   end
 
   def artist_name=(name)
-      binding.pry
       self.find_or_create_by(name: name, song: self)
       binding.pry
   end
