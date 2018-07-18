@@ -1,6 +1,6 @@
 module SongsHelper
 
-    def song_link(song)
+    def artist_link(song)
         link_to song
     end
 
